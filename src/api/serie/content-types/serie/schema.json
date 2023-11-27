@@ -1,0 +1,79 @@
+{
+  "kind": "collectionType",
+  "collectionName": "series",
+  "info": {
+    "singularName": "serie",
+    "pluralName": "series",
+    "displayName": "serie",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titulo": {
+      "type": "string"
+    },
+    "SubTitulo": {
+      "type": "string"
+    },
+    "FaixaEtaria": {
+      "type": "integer"
+    },
+    "Genero": {
+      "type": "string"
+    },
+    "CapaSerie": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "Descricao": {
+      "type": "text"
+    },
+    "Idioma": {
+      "type": "string"
+    },
+    "Avaliacao": {
+      "type": "integer"
+    },
+    "PalavrasChave": {
+      "type": "text"
+    },
+    "OndeAssistir": {
+      "type": "string"
+    },
+    "Imagens": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "ElencoImagem": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "ElencoNomeReal": {
+      "type": "string"
+    },
+    "ElencoNomePersonagem": {
+      "type": "string"
+    }
+  }
+}
